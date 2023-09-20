@@ -1,0 +1,31 @@
+a=input("enter 1st number")
+b=input("enter 2nd number")
+print("a="+a)
+print("b="+b)
+temp=a
+a=b
+b=temp
+print("values after swapping")
+print("a="+a)
+print("b="+b)
+
+
+
+
+h=float(input("enter height: "))
+w=int(input("enter weight: "))
+bmi=w/(h*h)
+print(bmi)
+
+
+
+
+name=input("enter name")
+length=len(name)
+print(length)
+
+
+
+a="823"
+x=int(a[0])+int(a[1])+int(a[2])
+print(x)
