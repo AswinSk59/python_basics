@@ -1,0 +1,21 @@
+num1=int(input("enter first number"))
+num2=int(input("enter second number"))
+print("\n 1.Add")
+print("\n 2.subtract")
+print("\n 3.multiply")
+print("\n 4.division")
+choice=int(input("enter your choice"))
+if choice==1:
+    Add=num1+num2
+    print("Sum of two number = "+str(Add))
+elif choice==2:
+    Sub=num1-num2
+    print("Subtraction of two number  = "+str(Sub))
+elif choice==3:
+    Mul=num1*num2
+    print("Multiplication of two number = "+str(Mul))
+elif choice==4:
+    div=num1/num2
+    print("Division of two number = "+str(div))
+else:
+    print("Enter correct choice")
