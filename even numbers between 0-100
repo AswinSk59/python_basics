@@ -1,0 +1,4 @@
+print("EVEN NUMBERS BETWEEN 0-100")
+print("-----------------")
+for x in range(0,100,2):
+        print(x)
