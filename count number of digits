@@ -1,0 +1,6 @@
+num=input("Enter Number : ")
+print("Each digits in number : \n")
+for x in num:
+    print(x)
+total=len(num)
+print("number of digits in a number",total)
