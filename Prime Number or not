@@ -1,0 +1,6 @@
+num=int(input("Enter the number: ")) 
+if num>1:
+    if num%2==1 or num==2:
+        print("Number is a prime number")
+    else:
+        print("Number is not a prime number")
