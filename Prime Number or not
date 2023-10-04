@@ -1,10 +1,15 @@
 num=int(input("Enter the number: ")) 
+flag= False
 if(num==1):
         print("Number is a neither a prime number nor a composite number")
 elif(num<1):
      print("Enter a valid input")
 else: 
-    if num%2==1 or num==2:
-        print("Number is a prime number")
+    for i in range(2, num):
+           if num % i== 0:
+                flag=True
+                break
+    if flag:
+        print(num,"composite number")
     else:
-        print("Number is a composite number")
+        print(num,"prime number")
