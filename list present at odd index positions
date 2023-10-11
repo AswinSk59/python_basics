@@ -1,0 +1,9 @@
+num=int(input("enter number of elements in list"))
+List=[]
+print("enter elements in list: ")
+for i in range(0,num):
+    ele=input()
+    List.append(ele)
+print("numbers at odd position:")
+for i in range(1, num, 2):
+    print(List[i])
