@@ -1,0 +1,5 @@
+sum=0
+num=int(input("Enter a number"))
+for x in range(0,num+1): 
+    sum=sum+(x**3)
+print(sum)    
