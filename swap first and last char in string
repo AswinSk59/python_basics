@@ -1,0 +1,11 @@
+def swap(a,b):
+    a=s[-1]
+    b=s[0]
+    print("\nAfter swapping first and last character")
+    print("First character:",a)
+    print("Second character:",b)
+
+s=input("Enter a string : ") 
+print("First character:",s[0])
+print("Second character:",s[-1])
+swap(a,b)
