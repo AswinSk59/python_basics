@@ -1,0 +1,12 @@
+def add_ing_ly(w):
+    if len(w) < 3:
+        return "The word should have at least 3 characters."
+
+    if w[-3:] == "ing":
+        return w+"ly"
+    else:
+        return w+"ing"
+
+w = input("Enter a word: ")
+result = add_ing_ly(w)
+print("Result:", result)
