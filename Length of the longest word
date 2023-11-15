@@ -1,0 +1,8 @@
+def longest(l):
+    
+    max_length = max(len(word) for word in l)
+    return max_length
+
+l=["apple", "banana", "grapefruit", "kiwi"]
+result=longest(l)
+print("The length of the longest word is: ",result)
