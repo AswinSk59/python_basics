@@ -1,0 +1,7 @@
+f1=open("hi.txt","a")
+f1.write(" appended portion")
+f1.close()
+
+f1=open("hi.txt","r")
+data=f1.read()
+print(data)
