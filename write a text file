@@ -1,0 +1,2 @@
+f1=open("hi.txt","w")
+f1.write("good")
