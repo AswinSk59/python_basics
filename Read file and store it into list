@@ -1,0 +1,4 @@
+f=open("hi.txt","r")
+clist = f.readlines()
+newlst = [x[:-1] for x in clist]
+print(newlst)
