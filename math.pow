@@ -1,0 +1,4 @@
+import math
+m=int(input("Enter a number"))
+n=int(input("Enter power value"))
+print(math.pow(m,n))
