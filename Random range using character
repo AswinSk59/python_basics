@@ -1,0 +1,4 @@
+import random 
+name=("aswin","abhi","adhi")
+a=random.randrange(3)
+print(name[a])
