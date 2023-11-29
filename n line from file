@@ -1,0 +1,7 @@
+N=int(input("Enter number of line to print: "))
+f=open(inputFile, 'r')
+List= f.readlines()
+print("First",N,"lines of a text file:")
+for textline in (List[:N]):
+        print(textline, end ='')
+f.close()
