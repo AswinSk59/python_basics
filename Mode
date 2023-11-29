@@ -1,0 +1,2 @@
+import statistics
+print(statistics.mode([1,1,2,5,5,9,7,9,9]))
