@@ -1,0 +1,2 @@
+import statistics
+print(statistics.mean([2,4,6,9,8,1,15]))
