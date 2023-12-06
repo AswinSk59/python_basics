@@ -1,0 +1,10 @@
+f=input("Enter filename ")
+try:
+    f1=open(f,"r+")
+    try:
+        f1.write("latest")
+    finally:
+        f1.close()
+        print("Everything executed,file closed")
+except:
+    print("ERROR")
