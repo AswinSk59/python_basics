@@ -1,0 +1,7 @@
+f=input("Enter filename ")
+try:
+    f1=open(f,"r")
+    data=f1.read()
+    print(data)
+except:
+    print("File '",f,"'doesnt Exist")
